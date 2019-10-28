@@ -1,9 +1,22 @@
 {
   "name": "@jagi/mutex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "source": "src/index.ts",
   "author": "Łukasz Jagodziński <luke.jagodzinski@gmail.com>",
+  "keywords": [
+    "typescript",
+    "mutex",
+    "asynchronous",
+    "lock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagi/mutex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jagi/mutex/issues"
+  },
   "license": "MIT",
   "scripts": {
     "build": "tsc",

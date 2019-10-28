@@ -24,7 +24,7 @@ jobs:
           npm test
       - name: Build
         run: |
-          npm build
+          npm run build
       - name: Publish
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN
